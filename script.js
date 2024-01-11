@@ -8,7 +8,7 @@ function generateRandomCode() {
 function makeid(n) {
   // write your code here
 	let str = "";
-	for (let i = 0; i < n.length; i++) {
+	for (let i = 0; i <= n; i++) {
 		str += String.fromCharCode(generateRandomCode());
 	}
 	return str;
