@@ -13,7 +13,8 @@ function makeid(n) {
 	}
 	return str;
 }
-console.log(makeid(n));
+console.log(makeid(5));
+console.log(makeid(10));;
 // Do not change the code below.
 const n = prompt("Enter a number.");
 alert(makeid(n));
